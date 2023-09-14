@@ -1,7 +1,9 @@
-// const name1='Apple'// which will never change,
+const name1='Apple';// which will never change,
 
 import Navbar from "../../components/Navbar";
 import SideBar from "../../components/SideBar";
+import HomeSection from "../../components/HomeSection";
+
 
 // const name1;// error: please assign the value
 
@@ -46,15 +48,12 @@ const HomePage = () => {
         }}
       >
         <SideBar />
-        <div>
-          <img
-            src="https://cospfrxzkjrwleefgsgb.supabase.co/storage/v1/object/public/interview_prep/interviewer_avatar/male/a1.jpg"
-            alt=""
-          />
-        </div>
+        <HomeSection />
       </div>
     </div>
   );
 };
+
+
 
 export default HomePage;
