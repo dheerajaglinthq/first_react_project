@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 66px;
+    box-sizing: border-box;
+    padding: 0px 82px;
+}
+.nav{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+
+.nav-item{
+    color: var(--Black, #000);
+
+/* Paragraph/Small */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 178.571% */
+}
+
+.contact-button-wrapper{
+    border-radius: 30px;
+border: 1px solid var(--Orange, #FB651E);
+display: flex;
+padding: 8px 12px;
+justify-content: center
+;
+align-items: center;
+height: 100%;
+
+}
+
+.contact-button-wrapper div{
+    color:  #000;
+font-family: Inter ;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+text-transform: uppercase;
+
+}
