@@ -2,3 +2,13 @@ html,body{
     padding: 0px;
     margin: 0px;
 }
+
+.spacer-24px{
+    height: 24px;
+}
+.spacer-16px{
+    height: 16px;
+}
+.spacer-12px{
+    height: 12px;
+}
