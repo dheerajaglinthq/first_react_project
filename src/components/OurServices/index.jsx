@@ -1,6 +1,7 @@
 import "./index.css";
 import ServiceCard from "../ServicesCard";
 import Accounting from "../../image/Service-images/Accounting.svg";
+import Advisory from "../../image/Service-images/Advisory.svg"
 
 function OurServices() {
   return (
@@ -42,22 +43,6 @@ function ServiceHeader() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const allServices = [
   {
     heading: "Accounting",
@@ -69,7 +54,7 @@ const allServices = [
     heading: "Taxation Service",
     subheading:
       "We offer a wide variety of tax services ranging from tax return preparation to complex tax planning strategies.",
-    image: "",
+    image: "Advisory",
   },
   {
     heading: "advisory Service",
