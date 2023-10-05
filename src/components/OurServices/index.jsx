@@ -1,7 +1,13 @@
 import "./index.css";
 import ServiceCard from "../ServicesCard";
 import Accounting from "../../image/Service-images/Accounting.svg";
-import Advisory from "../../image/Service-images/Advisory.svg"
+import Advisory from "../../image/Service-images/Advisory.svg";
+import Company from "../../image/Service-images/Company.svg";
+import Frame from "../../image/Service-images/Frame.svg";
+import tax from "../../image/Service-images/tax.svg";
+import Legal from "../../image/Service-images/Legal.svg";
+
+
 
 function OurServices() {
   return (
@@ -54,31 +60,31 @@ const allServices = [
     heading: "Taxation Service",
     subheading:
       "We offer a wide variety of tax services ranging from tax return preparation to complex tax planning strategies.",
-    image: "Advisory",
+    image: tax,
   },
   {
     heading: "advisory Service",
     subheading:
       "We offer you the most reliable and tailor-made legal and compliance solutions.",
-    image: "",
+    image: Advisory,
   },
   {
     heading: "company secretarial Service",
     subheading:
       "Starting a brand-new company from the ground up isn't an easy task. We offer you an effortless start and assist where necessary.",
-    image: "",
+    image: Company,
   },
 
   {
     heading: "virtual cfo Service",
     subheading:
       "Our CFO services will help you navigate accounting complexities with ease, freeing up time to focus on your business.",
-    image: "",
+    image: Frame,
   },
   {
     heading: "legal and due diligence Service",
     subheading:
       "Get a legal advice and services for all of your business concerns from our expertises who are always ready to help.",
-    image: "",
+    image: Legal,
   },
 ];
